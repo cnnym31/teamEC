@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+
+body, html {
+	margin : 0; /* 余白の削除 */
+	padding : 0; /* 余白の削除 */
+	width : 100%;
+	height: auto !important;
+}
+
+body {
+	background-image:url("../images/hanabiD.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	padding-bottom: 60px !important;
+}
+
+.productList-main {
+	margin-top:50px;
+	background-color:rgba(255, 255, 255, 0.5);
+	border-radius:50px;
+	width:60%;
+	padding:20px;
+	margin-bottom:60px;
+	float:left;
+	min-width:600px;
+	margin-left:15%;
+}
+
+
+.top h1{
+	text-align:center;
+}
+
+.pager-top{
+	clear:left;
+	text-align : center;
+	font-size : 30px;
+	margin-bottom:7px;
+}
+
+a{
+	display:block;
+}
+
+#num{
+	display:inline-block;
+	width:45px;
+	transition:.2s;
+}
+
+.tom{
+	background-color:#0088cc;
+	border-radius:40px;
+	color:white;
+}
+
+.bot{
+	background-color:#66ccff;
+	border-radius:10px;
+	display:block;
+}
+
+.bot:hover{
+	background-color:#6b9bb3;
+	-webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+
+.flexbox {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.productList-box ul li {
+	display:block;
+	list-style-type:none;
+	text-align:center;
+}
+
+.productList-box a {
+	text-decoration:none;
+}
+
+.productList-box {
+	width:32%;
+	height:29%;
+	text-align:center;
+}
+
+.productList-box img {
+	width:60%;
+	hight:60%;
+	border-radius:20px;
+	transition:.2s;
+}
+
+.productList-box img:hover {
+	-moz-transform: scale(1.1,1.1);
+	-webkit-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+}
+
+.pager-bottom{
+	clear:left;
+	text-align : center;
+	font-size : 30px;
+}
+
+.clearfix {
+	clear: both;
+}
